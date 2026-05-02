@@ -1,0 +1,93 @@
+{
+  "core": [
+    {
+      "method": "GET",
+      "path": "/api/ventures",
+      "desc": "List all ventures with os_share data"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ventures/{company}",
+      "desc": "Get single venture details"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ventures/{company}/goals",
+      "desc": "Get all goals for a venture"
+    },
+    {
+      "method": "POST",
+      "path": "/api/ventures/{company}/goals",
+      "desc": "Create/update goals"
+    },
+    {
+      "method": "GET",
+      "path": "/api/agents",
+      "desc": "List all agents from clawos_cronjobs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/agents/{name}",
+      "desc": "Get agent details and latest output"
+    },
+    {
+      "method": "POST",
+      "path": "/api/agents/{name}/run",
+      "desc": "Trigger agent execution"
+    },
+    {
+      "method": "GET",
+      "path": "/api/collections",
+      "desc": "List all MongoDB collections"
+    },
+    {
+      "method": "GET",
+      "path": "/api/metrics/{company}",
+      "desc": "Get company metrics"
+    }
+  ],
+  "intelligence": [
+    {
+      "method": "POST",
+      "path": "/run_investor_campaign_workflow_openclaw/",
+      "desc": "Add investor leads to campaign pipeline"
+    },
+    {
+      "method": "GET",
+      "path": "/api/email/followups/pending-check",
+      "desc": "Check pending email follow-ups"
+    },
+    {
+      "method": "POST",
+      "path": "/api/email/followups/resolve",
+      "desc": "Resolve email follow-up"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat",
+      "desc": "OS Intelligence chat endpoint"
+    }
+  ],
+  "webhooks": [
+    {
+      "method": "POST",
+      "path": "/api/webhooks/email",
+      "desc": "Inbound email webhook (Resend)"
+    },
+    {
+      "method": "POST",
+      "path": "/api/webhooks/stripe",
+      "desc": "Stripe payment webhook"
+    },
+    {
+      "method": "POST",
+      "path": "/api/webhooks/twilio",
+      "desc": "Twilio SMS/voice webhook"
+    },
+    {
+      "method": "POST",
+      "path": "/api/webhooks/vapi",
+      "desc": "VAPI voice agent webhook"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "name": "stack.shareos.ai",
+    "desc": "ShareOS main platform / taxonomy",
+    "type": "Website"
+  },
+  {
+    "name": "shareos-wiki.vercel.app",
+    "desc": "ShareOS Wiki knowledge base",
+    "type": "Wiki"
+  },
+  {
+    "name": "shareos-taxonomy.vercel.app",
+    "desc": "ShareOS taxonomy graph",
+    "type": "Visualization"
+  },
+  {
+    "name": "shareos-taxonomy-graph.vercel.app",
+    "desc": "ShareOS taxonomy network graph",
+    "type": "Visualization"
+  },
+  {
+    "name": "v0-command-agent-matrix.vercel.app",
+    "desc": "Agent command matrix UI",
+    "type": "Dashboard"
+  },
+  {
+    "name": "shareos-goals.vercel.app",
+    "desc": "Venture goals dashboard",
+    "type": "Dashboard"
+  },
+  {
+    "name": "agents.sharelabs.ai",
+    "desc": "Agent matrix UI",
+    "type": "Dashboard"
+  },
+  {
+    "name": "insights.sharelabs.ai",
+    "desc": "Share Insights web polls",
+    "type": "Product"
+  },
+  {
+    "name": "feno.co",
+    "desc": "Feno main website",
+    "type": "Product"
+  },
+  {
+    "name": "sense01.sharelabs.ai",
+    "desc": "SENSE 01 fragrance venture site",
+    "type": "Product"
+  },
+  {
+    "name": "intro-app-xi.vercel.app",
+    "desc": "Intro app",
+    "type": "Product"
+  },
+  {
+    "name": "fenoclawapi.shareos.ai",
+    "desc": "Feno ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "instillclawapi.shareos.ai",
+    "desc": "instill ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "sharelandclawapi.shareos.ai",
+    "desc": "Shareland ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "sharehealthclawapi.shareos.ai",
+    "desc": "Share Health ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "clawapi.shareos.ai",
+    "desc": "ShareOS main ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "clawmeetapi.shareos.ai",
+    "desc": "Meetings ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "hametclawapi.shareos.ai",
+    "desc": "Hamet ClawAPI",
+    "type": "API"
+  },
+  {
+    "name": "dextorclawapi.shareos.ai",
+    "desc": "Dexter ClawAPI",
+    "type": "API"
+  }
+]

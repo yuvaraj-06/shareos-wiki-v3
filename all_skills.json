@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "1440-all-in",
+    "name": "1440-all-in",
+    "description": "Full-stack skill for 1440.ai, the connected AI coaching platform. Access MongoDB collections, backend architecture, coaching protocols, messaging (Twilio SMS/WhatsApp), voice (LiveKit/ElevenLabs), health data (Junction), payments (Stripe), calendar integration. Use when working on 1440 codebase, querying 1440 data, debugging 1440 backend, or building features for the 1440 coaching platform.",
+    "content_size": 15510,
+    "scripts": [
+      "protocol_manage.py",
+      "query.py",
+      "stats.py"
+    ],
+    "references": [],
+    "has_scripts": 3,
+    "has_references": 0
+  },
+  {
+    "id": "1440-protocols",
+    "name": "1440-protocols",
+    "description": "Create and manage AI coaching protocols for the 1440.ai platform. Each protocol defines a complete AI coach personality, modules, assessments, and interventions. Use when creating new coaching protocols, updating protocol configs, or managing the 1440 protocol library via the API.",
+    "content_size": 2989,
+    "scripts": [
+      "protocol.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "acc-engine",
+    "name": "acc-engine",
+    "description": "Autonomous Company Creation Engine. Daily cron that scans 7 performance domains for venture opportunities, evaluates market gates (TAM/CAGR), generates full venture concepts (brand, goals, financials, OKRs), builds landing pages via SuperDesign, and deploys to Vercel. Use when running the ACC pipeline, discovering new venture opportunities, or generating autonomous company concepts.",
+    "content_size": 41845,
+    "scripts": [
+      "__pycache__",
+      "api_clients.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "activity-feed",
+    "name": "activity-feed",
+    "description": "",
+    "content_size": 4964,
+    "scripts": [
+      "generate_feed.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "add-auth",
+    "name": "add-auth",
+    "description": "Add Clerk authentication (Google Sign-In + email/password) to any Next.js App Router project. Zero Google Cloud Console setup. Use when asked to add auth, login, signup, Google sign-in, protect routes, add authentication, or secure a dashboard/website. Triggers on \"add auth\", \"add login\", \"add sign in\", \"add Google login\", \"protect this site\", \"add authentication\", \"secure this dashboard\", \"add user accounts\".",
+    "content_size": 6297,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "add-fireflies-to-meeting",
+    "name": "add-fireflies-to-meeting",
+    "description": "",
+    "content_size": 1475,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "ai-qa-simulation",
+    "name": "ai-qa-simulation",
+    "description": "",
+    "content_size": 302,
+    "scripts": [
+      "ai_qa_simulation.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "ai-qa-simulator-agent",
+    "name": "ai-qa-simulator-agent",
+    "description": "",
+    "content_size": 946,
+    "scripts": [
+      "ai_qa_simulator.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "ai-support-automation-agent",
+    "name": "ai-support-automation-agent",
+    "description": "",
+    "content_size": 975,
+    "scripts": [
+      "ai_support_automation.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "automation-okr-tracker-agent",
+    "name": "automation-okr-tracker-agent",
+    "description": "",
+    "content_size": 999,
+    "scripts": [
+      "automation_okr_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "autoresearch-shareos",
+    "name": "autoresearch-shareos",
+    "description": "Autonomous experiment loop for ShareOS. Reads program.md for instructions, tweaks configurations, runs experiments, compares metrics, keeps or discards changes. Use for automated A/B testing, configuration optimization, or autonomous research loops.",
+    "content_size": 894,
+    "scripts": [
+      "__pycache__",
+      "experiment.py",
+      "run_loop.py"
+    ],
+    "references": [],
+    "has_scripts": 3,
+    "has_references": 0
+  },
+  {
+    "id": "aws-instances",
+    "name": "aws-instances",
+    "description": "Manage AWS EC2 instances \u2014 list, start, stop, reboot, terminate, create from AMI, create AMIs, resize, get status/IPs, and SSH. Use when asked to reboot an instance, launch a new server, create an instance from a saved AMI, check instance status, stop/start EC2, resize instance type, or any AWS EC2 management task. Covers the full Share Ventures fleet (7 OpenClaw instances + others).",
+    "content_size": 2659,
+    "scripts": [
+      "ec2.py",
+      "manage.py"
+    ],
+    "references": [
+      "fleet.md",
+      "instances.md"
+    ],
+    "has_scripts": 2,
+    "has_references": 2
+  },
+  {
+    "id": "brand-premium-assessor-agent",
+    "name": "brand-premium-assessor-agent",
+    "description": "",
+    "content_size": 965,
+    "scripts": [
+      "brand_premium_assessor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "brand-tracker-agent",
+    "name": "brand-tracker-agent",
+    "description": "",
+    "content_size": 940,
+    "scripts": [
+      "brand_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "browser-use",
+    "name": "browser-use",
+    "description": "Browser Use Cloud API for AI-powered browser automation. Stealth browsers, CAPTCHA solving, residential proxies, persistent profiles. Use when needing to automate authenticated web tasks, scrape protected sites, fill forms, or run browser tasks that Camofox/Chrome can't handle (2FA, CAPTCHA, geo-restricted). Also use when someone asks to use Browser Use.",
+    "content_size": 2249,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "bug-qa-tracker-agent",
+    "name": "bug-qa-tracker-agent",
+    "description": "",
+    "content_size": 953,
+    "scripts": [
+      "bug_qa_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "cap-table-tracker-agent",
+    "name": "cap-table-tracker-agent",
+    "description": "",
+    "content_size": 982,
+    "scripts": [
+      "cap_table_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "celli-agent-creator",
+    "name": "celli-agent-creator",
+    "description": "",
+    "content_size": 13640,
+    "scripts": [
+      "buy_twilio_number.py",
+      "create_agent.py",
+      "generate_logo.py",
+      "list_agents.py",
+      "update_existing_agents.py"
+    ],
+    "references": [],
+    "has_scripts": 5,
+    "has_references": 0
+  },
+  {
+    "id": "chainlink-prices",
+    "name": "chainlink-prices",
+    "description": "Fetch live crypto prices from Chainlink on-chain oracle data feeds and CoinGecko. Supports BTC, ETH, SOL with real-time on-chain prices. Use when asked for crypto prices, Bitcoin/Ethereum/Solana prices, or on-chain oracle data.",
+    "content_size": 1862,
+    "scripts": [
+      "prices.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "channel-attribution-agent",
+    "name": "channel-attribution-agent",
+    "description": "",
+    "content_size": 984,
+    "scripts": [
+      "channel_attribution.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "channel-revenue-engine-agent",
+    "name": "channel-revenue-engine-agent",
+    "description": "",
+    "content_size": 980,
+    "scripts": [
+      "channel_revenue_engine.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "chat-history",
+    "name": "chat-history",
+    "description": "Cross-instance chat history search engine for ShareOS/ClawOS. Searches all messages across ALL instances (Feno, ShareOS, Hamet_ClawOS, Shareland, Instill, TrevorClawOS, DexterClawOS, ShareOS_Meetings, ShareHealth) using vector embeddings + LLM re-ranking. Use when the user asks to check chat history, search previous conversations, find old messages, or look up anything discussed previously across any instance. Triggers on \"check chat history\", \"search chat history\", \"chat history\", \"did we\", \"what happened to\", \"where is the\", \"do we have a link\", \"find the message\", \"who said\", \"when did we\", \"search messages\", \"search across instances\", \"previous conversations\", \"old messages\", \"what was discussed\", or any query about past events/conversations that aren't in local memory.",
+    "content_size": 5649,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "churn-analyzer-agent",
+    "name": "churn-analyzer-agent",
+    "description": "",
+    "content_size": 948,
+    "scripts": [
+      "churn_analyzer.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "claude-artifact-react-ui",
+    "name": "claude-artifact-react-ui",
+    "description": "Generate self-contained React/HTML artifacts that render as interactive UI components in a sandbox environment. Use when asked to create dashboards, visualizations, interactive tools, or any visual UI output.",
+    "content_size": 7433,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "clawos-daily-sync",
+    "name": "clawos-daily-sync",
+    "description": "Daily sync that reads WhatsApp group/DM histories, extracts company updates (decisions, milestones, actions), classifies by workstream, deduplicates, screenshots links to S3, and writes to deals_internal.clawos_updates in MongoDB. Use when running the daily ClawOS sync or debugging update extraction.",
+    "content_size": 2983,
+    "scripts": [
+      "__pycache__",
+      "s3_upload.py",
+      "score_yc_leads.py",
+      "sync.py"
+    ],
+    "references": [],
+    "has_scripts": 4,
+    "has_references": 0
+  },
+  {
+    "id": "clawos-updates-auditor",
+    "name": "clawos-updates-auditor",
+    "description": "Daily intelligent audit of clawos_updates across all ventures. Detects wrong workstream classifications, incorrect goal/milestone/task mappings, garbage/placeholder entries, and useless low-value updates. Fixes mappings and removes junk automatically. Runs silently with no group notifications.",
+    "content_size": 2244,
+    "scripts": [
+      "audit.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "clawos-updates-format",
+    "name": "clawos-updates-format",
+    "description": "Updates ClawOS updates in deals_internal with goal_milestone_task_info field, linking each update to the specific goal, milestone, and task it impacts. Use when formatting or enriching clawos_updates entries with goal/milestone/task mappings.",
+    "content_size": 3171,
+    "scripts": [
+      "update_all_companies.py",
+      "update_clawos_updates.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "closing-execution",
+    "name": "closing-execution",
+    "description": "",
+    "content_size": 298,
+    "scripts": [
+      "closing_execution.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "closing-executor-agent",
+    "name": "closing-executor-agent",
+    "description": "",
+    "content_size": 940,
+    "scripts": [
+      "closing_executor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "code-review",
+    "name": "code-review",
+    "description": "Automated code quality and security scanning across the OpenClaw workspace. Scans for hardcoded secrets, SQL injection, XSS, dead code, performance issues, and best practice violations. Rotates through projects each scan. Use when asked to review code, audit security, or scan for vulnerabilities.",
+    "content_size": 1748,
+    "scripts": [
+      "__pycache__",
+      "rotate.py",
+      "scan.py"
+    ],
+    "references": [],
+    "has_scripts": 3,
+    "has_references": 0
+  },
+  {
+    "id": "competitive-analysis",
+    "name": "competitive-analysis",
+    "description": "Find and analyze competitors for ShareOS portfolio companies. Uses 3-layer approach: internal ShareOS function (Perplexity + Gemini), MongoDB fundraising_scrapes collection, and web search. Stores results in MongoDB competative_analysis collection. Use when asked who are the competitors of a company, or to run/refresh competitive analysis.",
+    "content_size": 2577,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "compliance-vendor-mgr-agent",
+    "name": "compliance-vendor-mgr-agent",
+    "description": "",
+    "content_size": 982,
+    "scripts": [
+      "compliance_vendor_mgr.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "cost-equity-modeler-agent",
+    "name": "cost-equity-modeler-agent",
+    "description": "",
+    "content_size": 953,
+    "scripts": [
+      "cost_equity_modeler.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "culture-analyst-agent",
+    "name": "culture-analyst-agent",
+    "description": "",
+    "content_size": 924,
+    "scripts": [
+      "culture_analyst.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "culture-engagement",
+    "name": "culture-engagement",
+    "description": "",
+    "content_size": 286,
+    "scripts": [
+      "culture_engagement.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "data-quality-auditor-agent",
+    "name": "data-quality-auditor-agent",
+    "description": "",
+    "content_size": 980,
+    "scripts": [
+      "data_quality_auditor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "data-room-assembler-agent",
+    "name": "data-room-assembler-agent",
+    "description": "",
+    "content_size": 954,
+    "scripts": [
+      "data_room_assembler.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "deal-structuring",
+    "name": "deal-structuring",
+    "description": "",
+    "content_size": 295,
+    "scripts": [
+      "deal_structuring.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "deck-agent",
+    "name": "deck-agent",
+    "description": "Generate professional investor-ready pitch decks for any company. Pulls data from MongoDB, finds/generates logos, creates PDF with charts and visualizations.",
+    "content_size": 1198,
+    "scripts": [
+      "generate_deck.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "demand-signal-agent",
+    "name": "demand-signal-agent",
+    "description": "",
+    "content_size": 998,
+    "scripts": [
+      "test_demand.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "dexter",
+    "name": "dexter",
+    "description": "Autonomous financial research agent. Analyzes stocks, fundamentals, filings, and market data. Use for stock research, valuation analysis, competitive analysis, and financial due diligence.",
+    "content_size": 2541,
+    "scripts": [
+      "arbitrage.py",
+      "test_prices.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "diligence-prep-agent",
+    "name": "diligence-prep-agent",
+    "description": "",
+    "content_size": 947,
+    "scripts": [
+      "diligence_prep.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "document-search",
+    "name": "document-search",
+    "description": "Search for documents, files, decks, templates, LOIs, financial statements, or any file from Hamet's Google Drive or MongoDB venture records. Use when anyone asks to find, retrieve, or share a document, file, deck, spreadsheet, PDF, or template for any venture (feno, shareland, instill, 1440, share_fund, share_health, spree).",
+    "content_size": 7871,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "domain-lookup",
+    "name": "domain-lookup",
+    "description": "Domain name availability checker and SEO-optimized domain suggestion generator. Checks Twitter/Instagram username availability, actual domain availability via RapidAPI, and uses GPT-4 to suggest domain names. Use when asked for domain name suggestions, availability checks, or social handle availability.",
+    "content_size": 2522,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "ecosystem-mapper-agent",
+    "name": "ecosystem-mapper-agent",
+    "description": "",
+    "content_size": 1018,
+    "scripts": [
+      "ecosystem_mapper.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "email-nurture-optimizer-agent",
+    "name": "email-nurture-optimizer-agent",
+    "description": "",
+    "content_size": 1005,
+    "scripts": [
+      "email_nurture_optimizer.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "exit-contract-transition-agent",
+    "name": "exit-contract-transition-agent",
+    "description": "",
+    "content_size": 969,
+    "scripts": [
+      "exit_contract_transition.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "exit-deal-structurer-agent",
+    "name": "exit-deal-structurer-agent",
+    "description": "",
+    "content_size": 943,
+    "scripts": [
+      "exit_deal_structurer.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "exit-integration-agent",
+    "name": "exit-integration-agent",
+    "description": "",
+    "content_size": 944,
+    "scripts": [
+      "exit_integration.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "exit-integration-value",
+    "name": "exit-integration-value",
+    "description": "",
+    "content_size": 330,
+    "scripts": [
+      "exit_integration_value.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "exit-knowledge-transfer-agent",
+    "name": "exit-knowledge-transfer-agent",
+    "description": "",
+    "content_size": 995,
+    "scripts": [
+      "exit_knowledge_transfer.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "expansion-tracker-agent",
+    "name": "expansion-tracker-agent",
+    "description": "",
+    "content_size": 973,
+    "scripts": [
+      "expansion_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "experiment-engine-agent",
+    "name": "experiment-engine-agent",
+    "description": "",
+    "content_size": 1005,
+    "scripts": [
+      "experiment_engine.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "feature-adoption-monitor-agent",
+    "name": "feature-adoption-monitor-agent",
+    "description": "",
+    "content_size": 1036,
+    "scripts": [
+      "feature_adoption_monitor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "feno-looker-metrics",
+    "name": "feno-looker-metrics",
+    "description": "Weekly Looker Studio scraper for Feno. Extracts growth marketing metrics from all dashboard tabs and updates workstream metrics in MongoDB deals_internal.",
+    "content_size": 2090,
+    "scripts": [
+      "__pycache__",
+      "scrape_looker.py",
+      "scrape_remaining.py",
+      "tab_config.json"
+    ],
+    "references": [],
+    "has_scripts": 4,
+    "has_references": 0
+  },
+  {
+    "id": "financial-auditor-agent",
+    "name": "financial-auditor-agent",
+    "description": "",
+    "content_size": 959,
+    "scripts": [
+      "financial_auditor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "firecrawl-browser",
+    "name": "firecrawl-browser",
+    "description": "Firecrawl Browser CLI for secure browser sandbox automation, web scraping, and agent-driven browser interaction. Use when asked to scrape websites, automate browser tasks via Firecrawl, run Playwright code remotely, interact with authenticated pages, fill forms, click buttons, or extract structured data from any website. Also use for firecrawl CLI commands (scrape, crawl, search, map, browser).",
+    "content_size": 7768,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "founder-alignment-agent",
+    "name": "founder-alignment-agent",
+    "description": "",
+    "content_size": 961,
+    "scripts": [
+      "founder_alignment.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "fundraising",
+    "name": "fundraising",
+    "description": "ShareOS fundraising pipeline. Add investor leads, manage campaigns, research VC firms, sync to Attio CRM. Covers both investor prospect research/enrichment and campaign lead management. Use when asked to add an investor lead, analyze a VC firm, manage fundraising campaigns, or add leads to CRM. Companies supported: feno, share_ventures, share_health.",
+    "content_size": 1639,
+    "scripts": [
+      "add_investor_lead.py",
+      "add_leads.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "funnel-tracker-agent",
+    "name": "funnel-tracker-agent",
+    "description": "",
+    "content_size": 1030,
+    "scripts": [
+      "track_funnel.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "global-scale-optimizer-agent",
+    "name": "global-scale-optimizer-agent",
+    "description": "",
+    "content_size": 985,
+    "scripts": [
+      "global_scale_optimizer.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "governance-global-ops-agent",
+    "name": "governance-global-ops-agent",
+    "description": "",
+    "content_size": 984,
+    "scripts": [
+      "governance_global_ops.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "higgsfield",
+    "name": "higgsfield",
+    "description": "Higgsfield AI multi-model platform for image and video generation. Access 100+ models including Soul, Seedream, Kling, Seedance, and more. Supports text-to-image, image-to-video, and image editing. Outputs auto-upload to S3.",
+    "content_size": 6397,
+    "scripts": [
+      "higgsfield_api.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "hiring-pipeline-agent",
+    "name": "hiring-pipeline-agent",
+    "description": "",
+    "content_size": 983,
+    "scripts": [
+      "hiring_pipeline.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "infra-monitor-agent",
+    "name": "infra-monitor-agent",
+    "description": "",
+    "content_size": 970,
+    "scripts": [
+      "infra_monitor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "instagram-reader",
+    "name": "instagram-reader",
+    "description": "Read Instagram posts and reels \u2014 fetch metadata, download video/images, extract frames, transcribe audio. Uses RapidAPI (instagram-social-api) + OpenAI Whisper.",
+    "content_size": 1920,
+    "scripts": [
+      "read_post.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "integration-contract-ops-agent",
+    "name": "integration-contract-ops-agent",
+    "description": "",
+    "content_size": 1024,
+    "scripts": [
+      "integration_contract_ops.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "intra-claw-instance-connect-sync",
+    "name": "intra-claw-instance-connect-sync",
+    "description": "Sync, search, and manage local OpenClaw skills across the entire Share.vc AI fleet.",
+    "content_size": 2868,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "inventist-patent-search",
+    "name": "inventist-patent-search",
+    "description": "Weekly patent/grant scanner for ShareOS ventures. Searches Zilliz vector DB for relevant opportunities, tags to companies, scores relevance.",
+    "content_size": 1476,
+    "scripts": [
+      "patent_search.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "ip-exit-auditor-agent",
+    "name": "ip-exit-auditor-agent",
+    "description": "",
+    "content_size": 974,
+    "scripts": [
+      "ip_exit_auditor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "ipo-exit-readiness-agent",
+    "name": "ipo-exit-readiness-agent",
+    "description": "",
+    "content_size": 965,
+    "scripts": [
+      "ipo_exit_readiness.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "knowledge-rag",
+    "name": "knowledge-rag",
+    "description": "Personal knowledge base with RAG (Retrieval Augmented Generation). Ingests URLs, YouTube, Twitter threads, and PDFs shared in the ClawOS WhatsApp group. Stores in SQLite with OpenAI vector embeddings for semantic search. Use when asked to search saved knowledge, ingest a URL, or query 'what did I save about X'.",
+    "content_size": 2520,
+    "scripts": [
+      "__pycache__",
+      "db.py",
+      "ingest.py",
+      "search.py"
+    ],
+    "references": [],
+    "has_scripts": 4,
+    "has_references": 0
+  },
+  {
+    "id": "kt-sync",
+    "name": "kt-sync",
+    "description": "Daily Knowledge Transfer sync across all OpenClaw instances. Collects activity from 7 instances via SSH, generates a KT document, recovers lost/pending tasks, distributes the doc to all instances, and sends WhatsApp summary to V1 and V2. Runs every morning at 5 AM UTC.",
+    "content_size": 4790,
+    "scripts": [
+      "__pycache__",
+      "collect.py",
+      "convex_sync.py",
+      "distribute.py",
+      "generate_kt.py",
+      "kt_sync.py",
+      "notify.py",
+      "recover.py"
+    ],
+    "references": [
+      "instance_config.json"
+    ],
+    "has_scripts": 8,
+    "has_references": 1
+  },
+  {
+    "id": "launch-readiness-agent",
+    "name": "launch-readiness-agent",
+    "description": "",
+    "content_size": 1012,
+    "scripts": [
+      "check_readiness.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "leadership-succession",
+    "name": "leadership-succession",
+    "description": "",
+    "content_size": 294,
+    "scripts": [
+      "leadership_succession.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "legal-setup-checker-agent",
+    "name": "legal-setup-checker-agent",
+    "description": "",
+    "content_size": 976,
+    "scripts": [
+      "legal_setup_checker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "limitless",
+    "name": "limitless",
+    "description": "Integrates with Limitless Pendant API to fetch lifelogs, starred items, search conversations, and download audio. Use when asked about Limitless data, recent lifelogs, starred items, or to search what was discussed/recorded via the Limitless pendant.",
+    "content_size": 1773,
+    "scripts": [
+      "__pycache__",
+      "action_loop.py",
+      "check-starred.py",
+      "get-lifelog.py",
+      "monitor.py",
+      "search-lifelogs.py"
+    ],
+    "references": [],
+    "has_scripts": 6,
+    "has_references": 0
+  },
+  {
+    "id": "linkedin-reader",
+    "name": "linkedin-reader",
+    "description": "Read-only LinkedIn data via RapidAPI. Fetch person profiles (headline, experience, education, skills), company details (industry, size, description), and recent company posts with engagement metrics. Use when anyone asks to look up, research, or read a LinkedIn profile, company page, or posts. NOT for sending messages, posting, or commenting (use unipile-social for LinkedIn actions).",
+    "content_size": 1695,
+    "scripts": [
+      "__pycache__",
+      "linkedin.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "margin-optimizer-agent",
+    "name": "margin-optimizer-agent",
+    "description": "",
+    "content_size": 969,
+    "scripts": [
+      "track_margins.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "maturity-assessor-agent",
+    "name": "maturity-assessor-agent",
+    "description": "",
+    "content_size": 964,
+    "scripts": [
+      "maturity_assessor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "md-viewer",
+    "name": "md-viewer",
+    "description": "Store and render markdown documents via mdview.sharelabs.ai. POST any markdown text, get a shareable URL back. Supports JSON-to-markdown normalization. Use when needing to display deliverables, reports, or any long markdown content in a clean readable format.",
+    "content_size": 3386,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "meetings",
+    "name": "meetings",
+    "description": "Complete meeting intelligence for ShareOS. Covers post-meeting transcripts (Fireflies.ai GraphQL API), live real-time meeting listening (Fireflies WebSocket), and Instill meeting summaries. Use when asked about meetings, transcripts, meeting notes, action items, \"what happened in the meeting\", \"start meeting\", \"listen to meeting\", or any meeting-related query.",
+    "content_size": 2425,
+    "scripts": [
+      "__pycache__",
+      "auto_detect.py",
+      "fireflies.py",
+      "instill.py",
+      "listen.py",
+      "meetings.py"
+    ],
+    "references": [],
+    "has_scripts": 6,
+    "has_references": 0
+  },
+  {
+    "id": "meta-ads",
+    "name": "meta-ads",
+    "description": "Full read/write integration with Meta (Facebook) Ads API. Manage campaigns, ad sets, ads, and access performance insights/metrics. Use when asked to create, manage, or analyze Meta/Facebook ad campaigns, check ad performance, or manage ad accounts.",
+    "content_size": 15258,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "mission-control-sync",
+    "name": "mission-control-sync",
+    "description": "Sync products from Mission Control (Convex dashboard) into MongoDB deals_internal as goals/milestones/tasks. Maps products to correct company, workstream, and hierarchy. Creates new company documents if needed. Use when syncing Mission Control data to MongoDB or debugging the sync pipeline.",
+    "content_size": 4406,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "mongodb-reader",
+    "name": "mongodb-reader",
+    "description": "Read-only MongoDB browser for the ShareOS database. Lists all collections with doc counts and descriptions. Covers deals_internal, deals_external, leads, investor_campaigns, meeting data, competitive analysis, and more. Use when asked to explore MongoDB collections, check what data exists, or understand the database schema. NOT for writing data.",
+    "content_size": 4444,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "motion-sites",
+    "name": "motion-sites",
+    "description": "",
+    "content_size": 2210,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "namecheap",
+    "name": "namecheap",
+    "description": ">",
+    "content_size": 6522,
+    "scripts": [
+      "namecheap_api.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "ndr-tracker-agent",
+    "name": "ndr-tracker-agent",
+    "description": "",
+    "content_size": 910,
+    "scripts": [
+      "ndr_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "newsletter-curator",
+    "name": "newsletter-curator",
+    "description": "Weekly automated newsletter generation for Share Ventures portfolio companies (Feno, Instill, Shareland, 1440, Share Fund). Gathers MongoDB goals/metrics, generates themed editorial newsletters via Claude, renders visualization panels, uploads to Google Docs, and posts links to WhatsApp. Use when running the weekly newsletter pipeline or generating company newsletters.",
+    "content_size": 6249,
+    "scripts": [
+      "__pycache__",
+      "gather.py",
+      "gdocs.py",
+      "generate.py",
+      "image_gen.py",
+      "notify.py",
+      "research_viz.py",
+      "run.py"
+    ],
+    "references": [],
+    "has_scripts": 8,
+    "has_references": 0
+  },
+  {
+    "id": "onboarding-tracker-agent",
+    "name": "onboarding-tracker-agent",
+    "description": "",
+    "content_size": 957,
+    "scripts": [
+      "onboarding_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "openclaw-instances",
+    "name": "openclaw-instances",
+    "description": "Monitor, manage, and query remote OpenClaw instances (Feno, Instill, Share Health, Shareland, ShareOS). Check gateway health, WhatsApp status, logs, run commands, and send alerts. Use when asked about instance status, health checks, or when needing to execute commands on remote OpenClaw servers.",
+    "content_size": 3590,
+    "scripts": [
+      ".ssh_key",
+      "__pycache__",
+      "auto_heal.py",
+      "health_check.py",
+      "remote_exec.py",
+      "update_skill.py"
+    ],
+    "references": [],
+    "has_scripts": 6,
+    "has_references": 0
+  },
+  {
+    "id": "openinsider",
+    "name": "openinsider",
+    "description": "Fetch SEC Form 4 insider trading data from OpenInsider.com. Get insider buys/sells by ticker, cluster buys (multiple insiders buying), filing dates, trade prices, and insider roles. Use when asked about insider trading activity, who is buying/selling a stock, or for cluster buy signals.",
+    "content_size": 1161,
+    "scripts": [
+      "fetch_trades.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "organic-growth-tracker-agent",
+    "name": "organic-growth-tracker-agent",
+    "description": "",
+    "content_size": 1021,
+    "scripts": [
+      "organic_growth_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "os-intelligence",
+    "name": "os-intelligence",
+    "description": "Cross-instance OS intelligence layer for ShareOS. Provides cross-agent visibility (what all agent instances are doing), skill synchronization (push skill updates from main to all company instances automatically), and a unified activity dashboard. Use when: checking what other agent instances (relay, instill, feno, daniel) are doing; publishing updated skills to all instances; syncing skills on non-main instances; querying the cross-instance activity log.",
+    "content_size": 6236,
+    "scripts": [
+      "__pycache__",
+      "activity_logger.py",
+      "os_dashboard.py",
+      "skill_publisher.py",
+      "skill_sync.py"
+    ],
+    "references": [],
+    "has_scripts": 5,
+    "has_references": 0
+  },
+  {
+    "id": "partner-crm-agent",
+    "name": "partner-crm-agent",
+    "description": "",
+    "content_size": 948,
+    "scripts": [
+      "partner_crm.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "partner-outreach-agent",
+    "name": "partner-outreach-agent",
+    "description": "",
+    "content_size": 994,
+    "scripts": [
+      "partner_outreach.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "partner-pilot-tracker-agent",
+    "name": "partner-pilot-tracker-agent",
+    "description": "",
+    "content_size": 1020,
+    "scripts": [
+      "partner_pilot_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "partner-program-mgr-agent",
+    "name": "partner-program-mgr-agent",
+    "description": "",
+    "content_size": 941,
+    "scripts": [
+      "partner_program_mgr.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "perf-monitor-agent",
+    "name": "perf-monitor-agent",
+    "description": "",
+    "content_size": 974,
+    "scripts": [
+      "perf_monitor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "pilot-revenue-tracker-agent",
+    "name": "pilot-revenue-tracker-agent",
+    "description": "",
+    "content_size": 974,
+    "scripts": [
+      "pilot_revenue_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "planning-intelligence",
+    "name": "planning-intelligence",
+    "description": "12-step planning intelligence pipeline for ShareOS ventures. Verifies ground truth from meetings/products/Shopify/Looker, researches comparables, builds a CEO-level business blueprint, sets stage-appropriate goals (one KPI per goal), assigns owners based on team roles/expertise, finds gaps, validates naming and splits compound goals, grounds valuations in market reality, checks two-track valuation, verifies agent linkage, recalculates workstream weights, and rolls out QA agents. Runs daily at 4am UTC.",
+    "content_size": 20698,
+    "scripts": [
+      "__pycache__",
+      "ai_helper.py",
+      "instance_scanner.py",
+      "master_orchestrator.py",
+      "master_orchestrator_v2.py",
+      "owner_resolver.py",
+      "run_all_except_shareland.py",
+      "run_remaining.py",
+      "schema_normalizer.py",
+      "score_engine_multi.py"
+    ],
+    "references": [
+      "goals-kpis-by-stage-full.txt",
+      "pipeline-v2-spec.md",
+      "pipeline-v3-spec.md"
+    ],
+    "has_scripts": 23,
+    "has_references": 3
+  },
+  {
+    "id": "planning-intelligence-v2",
+    "name": "planning-intelligence-v2",
+    "description": "Unified planning intelligence engine for ShareOS ventures. Runs 6 analysis passes on any company's goals in MongoDB \u2014 QA validation, coherence checking, gap finding, scoring, stage-appropriate audit, and valuation verification. Works for ANY venture (not hardcoded to one company). Uses the V3 stage model to validate goals are correct for the venture's current stage. Replaces the v1 suite of 14 separate sub-agents with a single unified script. Use when asked to audit goals, check goal quality, find missing goals, score goals, validate stage appropriateness, or run planning intelligence on any venture.",
+    "content_size": 6548,
+    "scripts": [
+      "audit.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "platform-ecosystem-agent",
+    "name": "platform-ecosystem-agent",
+    "description": "",
+    "content_size": 937,
+    "scripts": [
+      "platform_ecosystem.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "polsia-generate",
+    "name": "polsia-generate",
+    "description": "End-to-end Polsia intelligence + venture simulation generator. Takes a company name/URL, populates all polsia MongoDB collections (brand DNA, SEO, GEO, competitors, patents, grants) via ClawAPI, then generates the full venture_simulations schema. Uses OS intelligence (ClawAPI chat endpoint) for AI-generated content, not external LLMs.",
+    "content_size": 3587,
+    "scripts": [
+      "__pycache__",
+      "generate.py",
+      "generate_batch.py",
+      "generate_fast.py"
+    ],
+    "references": [],
+    "has_scripts": 4,
+    "has_references": 0
+  },
+  {
+    "id": "polsia-okara",
+    "name": "polsia-okara",
+    "description": "Polsia-Okara company intelligence dashboard. Combines Polsia (autonomous company builder) and Okara (AI CMO) features. Scrapes websites, generates brand DNA, runs SEO audits, finds competitors, checks AI search visibility, manages social/email/ads campaigns.",
+    "content_size": 2594,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "portfolio-construction",
+    "name": "portfolio-construction",
+    "description": "",
+    "content_size": 3085,
+    "scripts": [
+      "foundry_portfolio.py",
+      "fund_portfolio.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "postiz",
+    "name": "postiz",
+    "description": "Schedule and publish social media posts to 28+ channels via Postiz API. Supports X, LinkedIn, Reddit, Instagram, Facebook, Threads, YouTube, TikTok, Pinterest, Discord, Slack, Telegram, Medium, and more. Use when asked to schedule a social media post, publish content across platforms, or manage social media publishing.",
+    "content_size": 4457,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "problem-validator-agent",
+    "name": "problem-validator-agent",
+    "description": "",
+    "content_size": 1055,
+    "scripts": [
+      "score_interviews.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "qa-agent",
+    "name": "qa-agent",
+    "description": "Daily automated QA agent for all live Vercel production sites. Runs HTTP health checks (status, SSL, load time), deep browser QA (broken links, JS errors, content validation), generates reports, and sends Telegram notifications. Use when asked about site health, broken pages, QA testing, or website monitoring.",
+    "content_size": 3438,
+    "scripts": [
+      "__pycache__",
+      "camofox_qa.py",
+      "qa_agent.py",
+      "update_sites.py"
+    ],
+    "references": [
+      "sites.json"
+    ],
+    "has_scripts": 4,
+    "has_references": 1
+  },
+  {
+    "id": "qmd-search",
+    "name": "qmd-search",
+    "description": "",
+    "content_size": 1777,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "reddit-reader",
+    "name": "reddit-reader",
+    "description": "Read Reddit posts \u2014 fetch metadata, download video/images/galleries, extract frames, transcribe audio. Uses RapidAPI (reddit3) + OpenAI Whisper.",
+    "content_size": 1074,
+    "scripts": [
+      "read_post.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "remotion-video",
+    "name": "remotion-video",
+    "description": "Create and render programmatic videos using Remotion (React-based video framework). Use when asked to make videos, motion graphics, animated slides, data visualizations as video, social media clips, or any video content generated from code. Supports rendering to MP4, GIF, image sequences, and audio-only. Works with CLI, server-side rendering, AWS Lambda, and GitHub Actions.",
+    "content_size": 5782,
+    "scripts": [
+      "new_project.sh"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "remove-unused-sessions",
+    "name": "remove-unused-sessions",
+    "description": "Remove old/unused OpenClaw sessions that consumed very little context window. Use when the user asks to clean up sessions, remove old sessions, clear stale sessions, free up session storage, or delete unused/idle sessions. Triggers on \"clean sessions\", \"remove old sessions\", \"clear stale sessions\", \"delete unused sessions\", \"session cleanup\", \"purge sessions\".",
+    "content_size": 2335,
+    "scripts": [
+      "cleanup_sessions.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "resource-allocator-agent",
+    "name": "resource-allocator-agent",
+    "description": "",
+    "content_size": 1055,
+    "scripts": [
+      "allocate_resources.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "retention-analyzer-agent",
+    "name": "retention-analyzer-agent",
+    "description": "",
+    "content_size": 1042,
+    "scripts": [
+      "analyze_retention.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "rev-per-employee-agent",
+    "name": "rev-per-employee-agent",
+    "description": "",
+    "content_size": 938,
+    "scripts": [
+      "rev_per_employee.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "revenue-machine-agent",
+    "name": "revenue-machine-agent",
+    "description": "",
+    "content_size": 997,
+    "scripts": [
+      "track_revenue.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "revenue-transferability-agent",
+    "name": "revenue-transferability-agent",
+    "description": "",
+    "content_size": 1007,
+    "scripts": [
+      "revenue_transferability.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "reviews-agent",
+    "name": "reviews-agent",
+    "description": "Analyze reviews and social media comments. Supports Instagram reel/post comments, Twitter/X tweet comments, LinkedIn post lead extraction, and Amazon product review analysis. Use when asked to analyze comments on a social post, extract leads from comments, analyze product reviews, or find what people are saying about a product/company.",
+    "content_size": 3391,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "round-tracker-agent",
+    "name": "round-tracker-agent",
+    "description": "",
+    "content_size": 1003,
+    "scripts": [
+      "track_round.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "sales-pipeline-tracker-agent",
+    "name": "sales-pipeline-tracker-agent",
+    "description": "",
+    "content_size": 992,
+    "scripts": [
+      "sales_pipeline_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "satisfaction-scorer-agent",
+    "name": "satisfaction-scorer-agent",
+    "description": "",
+    "content_size": 1062,
+    "scripts": [
+      "score_satisfaction.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "series-a-pipeline-agent",
+    "name": "series-a-pipeline-agent",
+    "description": "",
+    "content_size": 964,
+    "scripts": [
+      "series_a_pipeline.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "session-tracker-agent",
+    "name": "session-tracker-agent",
+    "description": "",
+    "content_size": 1037,
+    "scripts": [
+      "track_sessions.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "session-wakeup",
+    "name": "session-wakeup",
+    "description": "Monitors all sessions on this instance for pending/failed/stalled tasks. When found, sends a follow-up message in the SAME session/chat to re-initiate the work. Runs every 20 minutes. Each instance runs its own copy focused on its own sessions.",
+    "content_size": 6477,
+    "scripts": [
+      "__pycache__",
+      "wakeup.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  },
+  {
+    "id": "share-ventures-ontology",
+    "name": "share-ventures-ontology",
+    "description": "",
+    "content_size": 18008,
+    "scripts": [],
+    "references": [
+      "execution-quality-framework.md"
+    ],
+    "has_scripts": 0,
+    "has_references": 1
+  },
+  {
+    "id": "shareos-goals-management",
+    "name": "shareos-goals-management",
+    "description": "",
+    "content_size": 27334,
+    "scripts": [
+      "goal-health-scanner.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "shareos-newbusiness",
+    "name": "shareos-newbusiness",
+    "description": "End-to-end autonomous business onboarding for ShareOS. Website form submission \u2192 VAPI outbound call (with Celli agent soul) \u2192 AI conversation \u2192 MongoDB storage \u2192 Polsia intelligence (8 collections) \u2192 Venture simulation \u2192 Email + SMS with results link. Handles the full pipeline from first contact to venture profile delivery.",
+    "content_size": 8092,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "shareos-repo",
+    "name": "shareos-repo",
+    "description": "Full access to the ShareOS 2.0 codebase at projects/shareos-2.0 (GitHub: yuvaraj-06/shareos, branch 2.0). Contains all agent scripts (investors, talent, campaign, LP), Django views, frontend components, and internal tools. Use when asked about ShareOS codebase, debugging agent scripts, adding features, or understanding how internal systems work.",
+    "content_size": 5186,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "sprint-tracker-agent",
+    "name": "sprint-tracker-agent",
+    "description": "",
+    "content_size": 1005,
+    "scripts": [
+      "track_sprints.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "stage-gate-agent",
+    "name": "stage-gate-agent",
+    "description": "",
+    "content_size": 1077,
+    "scripts": [
+      "evaluate_gate.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "studio-assets-tracker-agent",
+    "name": "studio-assets-tracker-agent",
+    "description": "",
+    "content_size": 1044,
+    "scripts": [
+      "studio_assets_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "succession-planner-agent",
+    "name": "succession-planner-agent",
+    "description": "",
+    "content_size": 928,
+    "scripts": [
+      "succession_planner.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "superdesign",
+    "name": "superdesign",
+    "description": "UI design generation and iteration using SuperDesign CLI. Use for slide decks, investor presentations, pitch decks, landing pages, dashboards, and any UI design work. Also use when creating professional presentation decks with modern design, animations, and responsive layouts. Covers the full design workflow from brand extraction to pixel-perfect reproduction to iteration.",
+    "content_size": 6410,
+    "scripts": [],
+    "references": [
+      "deck-design-guide.md"
+    ],
+    "has_scripts": 0,
+    "has_references": 1
+  },
+  {
+    "id": "support-tracker-agent",
+    "name": "support-tracker-agent",
+    "description": "",
+    "content_size": 960,
+    "scripts": [
+      "support_tracker.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "talent-agent",
+    "name": "talent-agent",
+    "description": "End-to-end talent acquisition agent. Sources candidates via LinkedIn, crafts role-specific async video interview questions, sends outreach, receives and scores video submissions, and delivers ranked candidate reports with inline playable videos. Use when hiring for any role across the portfolio.",
+    "content_size": 6636,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "tech-debt-analyzer-agent",
+    "name": "tech-debt-analyzer-agent",
+    "description": "",
+    "content_size": 984,
+    "scripts": [
+      "tech_debt_analyzer.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "trading",
+    "name": "trading",
+    "description": "Unified trading and prediction markets skill. Covers stock/crypto signal generation (Bollinger Bands, RSI), Polymarket prediction market queries and correlation arbitrage, and Alpaca paper trading. Use when asked about trading signals, prediction markets, Polymarket, stock analysis, paper trading, or market opportunities.",
+    "content_size": 1954,
+    "scripts": [
+      "__init__.py",
+      "analyzer.py",
+      "check_status.py",
+      "monitor.py",
+      "polymarket.py",
+      "signal_generator.py",
+      "trade.py"
+    ],
+    "references": [],
+    "has_scripts": 7,
+    "has_references": 0
+  },
+  {
+    "id": "twitter-reader",
+    "name": "twitter-reader",
+    "description": "Read Twitter/X tweets \u2014 fetch metadata, download video/images, extract frames, transcribe audio. Uses RapidAPI (twitter-api45) + OpenAI Whisper.",
+    "content_size": 1710,
+    "scripts": [
+      "read_tweet.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "ugc-content-engine",
+    "name": "ugc-content-engine",
+    "description": "Full UGC content and marketing pipeline. AI selects avatar from MongoDB \u2192 HeyGen video \u2192 Postiz social posting \u2192 Meta Ads. Also includes comprehensive marketing playbook with 140+ strategies covering content, SEO, paid ads, email, community, partnerships, PR, and conversion optimization. Use for UGC video creation, content marketing strategy, growth tactics, ad campaigns, or any marketing-related work.",
+    "content_size": 3281,
+    "scripts": [
+      "heygen_generate.py",
+      "meta_ads.py",
+      "postiz_post.py",
+      "run_workflow.py",
+      "select_avatar.py"
+    ],
+    "references": [
+      "marketing-playbook.md"
+    ],
+    "has_scripts": 5,
+    "has_references": 1
+  },
+  {
+    "id": "unipile-social",
+    "name": "unipile-social",
+    "description": "LinkedIn and Instagram actions via Unipile API. Send messages, create posts, comment, react, and manage connections on LinkedIn and Instagram. Use when asked to send a LinkedIn message, post on LinkedIn, comment, react, or take any write action on LinkedIn/Instagram. NOT for reading profiles or company data (use linkedin-reader for lookups).",
+    "content_size": 10747,
+    "scripts": [
+      "unipile.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "unit-economics-agent",
+    "name": "unit-economics-agent",
+    "description": "",
+    "content_size": 1029,
+    "scripts": [
+      "calculate_unit_econ.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "uptime-monitor-agent",
+    "name": "uptime-monitor-agent",
+    "description": "",
+    "content_size": 963,
+    "scripts": [
+      "uptime_monitor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "urgent-email",
+    "name": "urgent-email",
+    "description": "High-priority email detection. Scans Gmail every 30 min, uses strict AI classification to surface ONLY real emails from real people that need Hamet's immediate attention. Filters out all promotional, automated, platform notifications, Stripe, Crunchbase, bank alerts, and service emails. Only flags direct person-to-person emails requiring CEO-level decisions. NOT for general email reading or sending (use gog for that).",
+    "content_size": 2150,
+    "scripts": [
+      "__pycache__",
+      "feedback.py",
+      "poll_emails.py",
+      "time_gate.py"
+    ],
+    "references": [],
+    "has_scripts": 4,
+    "has_references": 0
+  },
+  {
+    "id": "v0-dev",
+    "name": "v0-dev",
+    "description": "Generate and deploy code using v0.dev Platform API. Create projects, start AI chat sessions with file context, iterate on code, and deploy. Use when asked to use v0, generate UI components via v0, or create a project with v0.dev.",
+    "content_size": 5010,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "valuation-engine",
+    "name": "valuation-engine",
+    "description": "Calculate company and workstream valuations for ShareOS ventures. Estimates targetValuation, currentValuation, ROI, performanceScore, executionScore, and ranking for goals/milestones/tasks. Uses stage, domain, geography, and metrics as inputs. Use when asked to value a company, calculate ROI of a goal, score/rank goals, or generate investor-grade valuation breakdowns.",
+    "content_size": 23449,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "vapi-voice",
+    "name": "vapi-voice",
+    "description": "Voice calling for OS via VAPI + ElevenLabs + Twilio. Phone number: +1 (424) 401-0557. Manages the loclx tunnel that keeps voice calls working. Use when asked about voice calls, the OS phone number, or when voice call tunnel needs recovery/debugging.",
+    "content_size": 2273,
+    "scripts": [],
+    "references": [],
+    "has_scripts": 0,
+    "has_references": 0
+  },
+  {
+    "id": "venture-lifecycle-sim",
+    "name": "venture-lifecycle-sim",
+    "description": "Generate full lifecycle venture simulations for any company from scratch. Produces stage-by-stage goals, milestones, tasks, KPIs, valuations, agent iterations, human touchpoints, and scorecards across all 7 ShareOS stages (Explore through Exit) and 7 workstreams (Product through Synergy). Outputs structured JSON for MongoDB and a deployable Vercel dashboard. Use when asked to simulate a venture, generate goals for all stages, create a venture playbook, produce an LP demo, or when someone says \"create a simulation\" or \"generate goals for a new company\". Company-agnostic: works for ANY venture in ANY vertical.",
+    "content_size": 9167,
+    "scripts": [
+      "generate_simulation.py"
+    ],
+    "references": [
+      "iterations-touchpoints.md",
+      "known-issues.md",
+      "sense01-v3-full-text.txt",
+      "v3-stage-model.md"
+    ],
+    "has_scripts": 1,
+    "has_references": 4
+  },
+  {
+    "id": "venture-naming",
+    "name": "venture-naming",
+    "description": "Comprehensive venture naming agent for the ShareOS ecosystem. Generates brand names, validates domains/IP/phonetics, runs synthetic consumer panels, orchestrates real human feedback via Share Circles and social polls, and manages crowd-sourced naming with rewards mechanics. Auto-triggered during Generate phase for every new venture.",
+    "content_size": 9183,
+    "scripts": [
+      "check_domains.sh"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "venture-simulation",
+    "name": "venture-simulation",
+    "description": "Generate a full V3-style venture lifecycle simulation for any company \u2014 all 7 stages (Explore\u2192Exit), 7 workstreams, with goals, milestones, tasks, valuations, agent/human splits, iteration failures, and stage gate scorecards. Outputs a deployable Vercel dashboard. Use when asked to simulate a venture, create a company simulation, generate stage-by-stage goals, or build a venture lifecycle from scratch.",
+    "content_size": 11307,
+    "scripts": [
+      "generate_simulation.py"
+    ],
+    "references": [
+      "goals-kpis-by-stage-full.txt",
+      "stage-gate-criteria.md",
+      "v3-simulation-structure.md"
+    ],
+    "has_scripts": 1,
+    "has_references": 3
+  },
+  {
+    "id": "vercel-versions",
+    "name": "vercel-versions",
+    "description": "Tag, track, and revert Vercel deployments. Maintains a version history in MongoDB with named tags, production status, and descriptive notes. Use when asked to tag a deployment, revert to a previous version, list deployment versions, or check deployment status for any Vercel project.",
+    "content_size": 4613,
+    "scripts": [
+      "versions.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "wellness-monitor-agent",
+    "name": "wellness-monitor-agent",
+    "description": "",
+    "content_size": 966,
+    "scripts": [
+      "wellness_monitor.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "whatsapp-identity",
+    "name": "whatsapp-identity",
+    "description": "Manages WhatsApp user identity and enforces one-time onboarding flow. Stores names against phone numbers to prevent cross-context contamination. Use on every incoming WhatsApp message from unknown numbers to check identity before processing requests. Handles new user onboarding, name resolution, and identity verification.",
+    "content_size": 2160,
+    "scripts": [
+      "identity.py"
+    ],
+    "references": [],
+    "has_scripts": 1,
+    "has_references": 0
+  },
+  {
+    "id": "workstream-weights-agent",
+    "name": "workstream-weights-agent",
+    "description": "Recalculates workstream_weights for each ShareOS venture based on industry standards, company stage, GTM motion, regulatory burden, and capital intensity. Writes updated weights to deals_internal in MongoDB. Runs weekly on Sunday 2am PT. Use when asked to recalculate workstream weights or when weights need updating after stage changes.",
+    "content_size": 7594,
+    "scripts": [
+      "__pycache__",
+      "run.py"
+    ],
+    "references": [],
+    "has_scripts": 2,
+    "has_references": 0
+  }
+]

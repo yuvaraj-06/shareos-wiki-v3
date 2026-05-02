@@ -1,0 +1,191 @@
+{
+  "LLM Providers": [
+    {
+      "name": "AWS Bedrock",
+      "models": "Claude Opus 4, Claude Sonnet 4",
+      "usage": "Primary LLM for all instances"
+    },
+    {
+      "name": "OpenRouter",
+      "models": "GPT-5.2, GPT-4.1, Gemini 3 Pro",
+      "usage": "Fallback and specialized tasks"
+    },
+    {
+      "name": "Anthropic Direct",
+      "models": "Claude Opus, Sonnet",
+      "usage": "Direct API fallback"
+    },
+    {
+      "name": "OpenAI",
+      "models": "GPT-5, GPT Image 2, Whisper",
+      "usage": "Image generation, transcription"
+    },
+    {
+      "name": "Google AI",
+      "models": "Gemini 3 Flash/Pro",
+      "usage": "Search grounding, image analysis"
+    },
+    {
+      "name": "xAI",
+      "models": "Grok 3, Grok 4",
+      "usage": "Alternative reasoning"
+    },
+    {
+      "name": "MiniMax",
+      "models": "MiniMax M2.5",
+      "usage": "Specialized tasks"
+    }
+  ],
+  "Communication": [
+    {
+      "name": "Twilio",
+      "usage": "SMS, MMS, voice calls, WhatsApp Business API"
+    },
+    {
+      "name": "Resend",
+      "usage": "Transactional email (os@share.vc)"
+    },
+    {
+      "name": "Unipile",
+      "usage": "LinkedIn messaging, Instagram actions"
+    },
+    {
+      "name": "VAPI",
+      "usage": "AI voice agent platform (phone calls)"
+    },
+    {
+      "name": "ElevenLabs",
+      "usage": "Text-to-speech for voice content"
+    },
+    {
+      "name": "Postiz",
+      "usage": "Social media scheduling (28+ channels)"
+    }
+  ],
+  "Data & Intelligence": [
+    {
+      "name": "MongoDB Atlas",
+      "usage": "Primary database (shareos cluster)"
+    },
+    {
+      "name": "Fireflies.ai",
+      "usage": "Meeting transcription and analysis"
+    },
+    {
+      "name": "RapidAPI",
+      "usage": "LinkedIn, Instagram, Twitter, Reddit readers"
+    },
+    {
+      "name": "Perplexity",
+      "usage": "Deep web search"
+    },
+    {
+      "name": "Jina AI",
+      "usage": "URL content extraction, search"
+    },
+    {
+      "name": "Exa",
+      "usage": "People/company discovery, LinkedIn URLs"
+    },
+    {
+      "name": "Brave Search",
+      "usage": "Web search API"
+    },
+    {
+      "name": "Chainlink",
+      "usage": "On-chain crypto price oracles"
+    }
+  ],
+  "Infrastructure": [
+    {
+      "name": "AWS EC2",
+      "usage": "10 instances running OpenClaw"
+    },
+    {
+      "name": "AWS S3",
+      "usage": "Media storage (shareosimages bucket)"
+    },
+    {
+      "name": "Vercel",
+      "usage": "Frontend deployments, static sites"
+    },
+    {
+      "name": "Namecheap",
+      "usage": "Domain registration and DNS"
+    },
+    {
+      "name": "Cloudflare",
+      "usage": "DNS and CDN"
+    },
+    {
+      "name": "LocalXpose",
+      "usage": "Tunneling for webhooks"
+    }
+  ],
+  "CRM & Business": [
+    {
+      "name": "Attio",
+      "usage": "CRM for fundraising and contacts"
+    },
+    {
+      "name": "Stripe",
+      "usage": "Payment processing"
+    },
+    {
+      "name": "Notion",
+      "usage": "Documentation and project management"
+    },
+    {
+      "name": "Google Workspace",
+      "usage": "Gmail, Calendar, Drive, Sheets, Docs"
+    }
+  ],
+  "Media & Design": [
+    {
+      "name": "FAL AI",
+      "usage": "Image/video generation (Sora, Grok Imagine)"
+    },
+    {
+      "name": "HeyGen",
+      "usage": "AI video generation with avatars"
+    },
+    {
+      "name": "Higgsfield",
+      "usage": "100+ model platform for image/video"
+    },
+    {
+      "name": "SuperDesign",
+      "usage": "UI design generation and iteration"
+    },
+    {
+      "name": "v0.dev",
+      "usage": "AI code/UI generation platform"
+    },
+    {
+      "name": "Remotion",
+      "usage": "Programmatic video rendering"
+    }
+  ],
+  "Specialized": [
+    {
+      "name": "Limitless",
+      "usage": "Pendant API for lifelogs and recordings"
+    },
+    {
+      "name": "Alpaca",
+      "usage": "Paper trading for stock signals"
+    },
+    {
+      "name": "Polymarket",
+      "usage": "Prediction market queries"
+    },
+    {
+      "name": "OpenInsider",
+      "usage": "SEC Form 4 insider trading data"
+    },
+    {
+      "name": "Junction",
+      "usage": "Health data integration (for 1440)"
+    }
+  ]
+}

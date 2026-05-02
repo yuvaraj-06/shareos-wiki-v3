@@ -1,0 +1,120 @@
+{
+  "polsia_okara_brand_dna": {
+    "count": 39,
+    "keys": [
+      "brand_archetypes",
+      "brand_positioning",
+      "brand_story",
+      "brand_voice",
+      "competitive_positioning",
+      "content_themes",
+      "domain",
+      "generated_at",
+      "links_discovered",
+      "messaging",
+      "pages_scraped",
+      "products",
+      "raw",
+      "scraped_urls",
+      "social_proof",
+      "source",
+      "target_personas",
+      "visual_identity"
+    ]
+  },
+  "polsia_okara_seo": {
+    "count": 39,
+    "keys": [
+      "audited_at",
+      "competitive_gap_analysis",
+      "content_quality",
+      "content_score",
+      "domain",
+      "headings",
+      "issues",
+      "keywords",
+      "link_velocity",
+      "links",
+      "meta_description",
+      "mobile_score",
+      "on_page_score",
+      "overall_score",
+      "page_speed",
+      "pagespeed_raw",
+      "performance_score",
+      "recommendations",
+      "referring_domains",
+      "source",
+      "technical",
+      "technical_score",
+      "title",
+      "title_tag",
+      "top_referring_domains",
+      "url"
+    ]
+  },
+  "polsia_okara_competitors": {
+    "count": 39,
+    "keys": [
+      "analyzed_at",
+      "competitive_advantages",
+      "competitors",
+      "domain",
+      "market_overview",
+      "new_found",
+      "sources",
+      "total"
+    ]
+  },
+  "polsia_okara_geo": {
+    "count": 39,
+    "keys": [
+      "avg_position",
+      "brand_mentions_estimate",
+      "chatgpt",
+      "checked_at",
+      "claude",
+      "content_signals",
+      "domain",
+      "google_ai",
+      "keywords_analyzed",
+      "overall_geo_score",
+      "overall_score",
+      "perplexity",
+      "platform_raw_responses",
+      "platforms",
+      "platforms_queried",
+      "platforms_responded",
+      "query_used",
+      "recommendations",
+      "sentiment",
+      "source",
+      "total_mentions",
+      "visibility_level"
+    ]
+  },
+  "polsia_okara_grants": {
+    "count": 47,
+    "keys": [
+      "domain",
+      "grants",
+      "query",
+      "recommendations",
+      "searched_at",
+      "source",
+      "total_found"
+    ]
+  },
+  "polsia_okara_patents": {
+    "count": 46,
+    "keys": [
+      "domain",
+      "patents",
+      "query",
+      "searched_at",
+      "technology_landscape",
+      "total_found",
+      "white_spaces"
+    ]
+  }
+}
